@@ -10,7 +10,8 @@
         "intervention/image": "dev-master",
         "laravelcollective/html": "5.2.*",
         "rachidlaasri/laravel-installer": "1.4.1",
-        "symfony/polyfill-iconv": "^1.11"
+        "symfony/polyfill-iconv": "^1.11",
+        "paypal/rest-api-sdk-php": "^1.14"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

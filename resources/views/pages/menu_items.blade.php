@@ -60,8 +60,7 @@
                                     <td><strong>{{getcong('currency_symbol')}} {{$item->price}}</strong></td>
                                     <td class="options">
                                         @if(Auth::check())
-                                            <a href="{{URL::to('add_item/'.$item->id)}}"><i
-                                                        class="fa fa-plus-square-o"></i></a>
+                                            <a href="{{URL::to('add_item/'.$item->id)}}"><i class="fa fa-plus-square-o"></i></a>
                                         @else
                                             <a href="{{URL::to('login')}}"><i class="fa fa-plus-square-o"></i></a>
                                     @endif

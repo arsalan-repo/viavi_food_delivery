@@ -165,6 +165,11 @@ Route::get('cancel_order/{order_id}', 'CartController@cancel_order');
 Route::get('menu/all_items', 'RestaurantsController@menu_items')->name('menu.list');
 
 
+//Checkout
+Route::get('checkout/{id}', 'CartController@view_checkout')->name('view.checkout');
+Route::get('payment_confirmation', 'CartController@payment_confirmation')->name('view.payment_confirmation');
+
+
 // Password reset link request routes...
 Route::get('admin/password/email', 'Auth\PasswordController@getEmail');
 Route::post('admin/password/email', 'Auth\PasswordController@postEmail');

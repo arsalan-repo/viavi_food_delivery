@@ -1127,4 +1127,13 @@ footer .social_icons a{font-size:14px;height:35px;width:35px;line-height:35px;co
 .hi-icon {color: #fff;display: block;position: relative;text-align: center;z-index: 1;}
 .b-infoblock-with-icon__icon {background: #f7d032 none repeat scroll 0 0;border: 2px solid transparent;border-radius: 50%;display: block;margin: 0 auto 15px;padding: 18px 5px;position: relative;text-align: center;transition: background 0.7s ease 0s;}
 .hi-icon-effect-8 .hi-icon:hover::after {animation: 1.3s ease-out 75ms normal none 20 running sonarEffect;}	
-.hi-icon-effect-8 .hi-icon:hover {background: #fff none repeat scroll 0 0;border: 2px solid #7dbf18;color:#7dbf18}	
+.hi-icon-effect-8 .hi-icon:hover {background: #fff none repeat scroll 0 0;border: 2px solid #7dbf18;color:#7dbf18}
+
+/*Custom*/
+
+.confirmation h1 i{
+    background: green;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
